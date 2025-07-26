@@ -44,7 +44,7 @@ class Solution {
     }
 
     if (isNegative && finalNum - 1 > (Integer.MAX_VALUE - digit) / 10) {
-      return new SimpleEntry<>(Integer.MI, isNegative);
+      return new SimpleEntry<>(Integer.MIN_VALUE, isNegative);
     }
 
     if (finalNum > (Integer.MAX_VALUE - digit) / 10) {
